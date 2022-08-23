@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <script src="./js/app.js" defer></script>
+    <script src="https://kit.fontawesome.com/edc81ae7e5.js" crossorigin="anonymous"></script>
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>
+        <h1>Weather Dashboard</h1>
+    </header>
+
+    <main class="flex-row justify-space-between">
+        <div class="col-12 col-md-3">
+            <div>
+                <h3>Search for a City:</h3>
+                <form>
+                    <label class="form-label" for="city"></label>
+                    <input name="city" id="city" type="text" autofocus="true" class="form-input" placeholder="St. Louis"/>
+                    <button type="submit" class="btn">Search</button>
+                </form>
+            </div>
+            <hr>
+            <div id="history-box"></div>
+        </div>
+
+
+        <div class="col-12 col-md-9">
+            <div id="current-weather" class="weather-display">
+                <h3>St. Louis</h3>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+            <div id="weekly-forecast">
+                <h4>5-Day Forecast:</h4>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
